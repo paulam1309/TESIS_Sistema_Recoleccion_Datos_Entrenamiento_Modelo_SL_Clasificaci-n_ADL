@@ -36,7 +36,32 @@ models/
   final/
   
 ---
+### `offline/notebooks/`
+- **`PREPARACION-DEL-DATASET.ipynb`**  
+  Loads the raw offline sensor captures, performs cleaning, basic preprocessing and generates the consolidated dataset used for training.
 
+- **`MODELADO_RF_SVM.ipynb`**  
+  Trains and compares **Random Forest** and **SVM** across different configurations (device position and sampling rate).  
+  Includes evaluation metrics (accuracy/precision/recall/F1, confusion matrix) and supports the final model decision.
+
+- **`PREPARACION PARA SL.ipynb`**  
+  Converts the selected offline dataset into **windowed files** compatible with the online Stream Learning stage (window segmentation + export).  
+  Produces the window datasets used for streaming and incremental evaluation.
+
+### `offline/data_raw/`
+Raw offline captures (not always included in the repo if they are large).  
+If removed for size/privacy, this folder may contain only a sample and instructions to reproduce the full dataset.
+
+### `offline/data_processed/`
+Processed datasets and windowed files (CSV/XLSX).  
+Recommended: keep only lightweight samples + final summary files in the repo.
+
+### `offline/models/`
+- `balanced/`: models trained on balanced data (Random oversampling / SMOTE).
+- `unbalanced/`: models trained on the original class distribution.
+- `final/`: the final selected model artifact(s) used as baseline for the online phase.
+
+---
 ## 🧠 Model Selection
 
 After evaluating multiple configurations (position and frequency), the final selected model was:
