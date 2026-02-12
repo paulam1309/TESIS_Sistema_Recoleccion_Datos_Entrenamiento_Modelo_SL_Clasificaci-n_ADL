@@ -53,7 +53,7 @@ In the offline phase:
 
 ### Offline Architecture
 
-![Offline architecture](docs/architecture_offline.png)
+![Offline architecture](/architecture_offline.png)
 
 ---
 
