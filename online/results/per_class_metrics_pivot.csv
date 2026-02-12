@@ -1,0 +1,5 @@
+class,f1_arf_online,f1_ht_online,f1_svm_offline,precision_arf_online,precision_ht_online,precision_svm_offline,recall_arf_online,recall_ht_online,recall_svm_offline,support
+sentarse,0.795,0.954,0.12,0.847,0.934,0.59,0.75,0.974,0.067,4076
+caminar,0.39,0.737,0.643,0.362,0.774,0.863,0.423,0.704,0.512,2049
+gradas,0.078,0.297,0.122,0.064,0.298,0.561,0.098,0.297,0.068,542
+caerse,0.012,0.439,0.084,0.021,0.433,0.044,0.008,0.445,0.931,245

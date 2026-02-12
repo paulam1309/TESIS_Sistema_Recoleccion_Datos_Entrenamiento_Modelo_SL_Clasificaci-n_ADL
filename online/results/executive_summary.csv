@@ -1,0 +1,4 @@
+model_key,yhat_col,accuracy_mean,reaction_median_s,switches_per_min_mean,win_seconds_est
+svm_offline,pred_label,0.22945601851851852,11.165891,5.537062630976424,1.980334
+ht_online,actividad,0.8229105786090006,1.522269,3.627158050288368,1.980334
+arf_online,actividad_b,0.5765634132086499,60.529219,2.178510093399066,1.980334
