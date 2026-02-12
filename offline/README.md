@@ -24,18 +24,7 @@ The offline phase focuses on data preparation, feature engineering, model traini
 ---
 
 ## 📂 Structure
-notebooks/
-  PREPARACION-DEL-DATASET.ipynb
-  MODELADO_RF_SVM.ipynb
-  PREPARACION_PARA_SL.ipynb
-data_processed/
-  windowed datasets
-models/
-  balanced/
-  unbalanced/
-  final/
-  
----
+
 ### `offline/notebooks/`
 - **`PREPARACION-DEL-DATASET.ipynb`**  
   Loads the raw offline sensor captures, performs cleaning, basic preprocessing and generates the consolidated dataset used for training.
